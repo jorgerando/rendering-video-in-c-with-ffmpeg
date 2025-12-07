@@ -10,7 +10,7 @@
 
 int main(void)
 {
-    int ffmpeg = ffmpeg_start_rendering(WIDTH, HEIGHT, FPS);
+    int* ffmpeg = ffmpeg_start_rendering(WIDTH, HEIGHT, FPS);
 
     InitWindow(WIDTH, HEIGHT, "FFmpeg");
     SetTargetFPS(FPS);
